@@ -943,6 +943,7 @@ local function createMutationSelector(tabName)
     wrapperListLayout.Padding = UDim.new(0, 0)
     wrapperListLayout.SortOrder = Enum.SortOrder.LayoutOrder
     wrapperListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+    wrapperListLayout.VerticalFlex =  Enum.UIFlexDirection.SpaceEvenly
     wrapperListLayout.Parent = containerWrapper
 
     local mutations = {"Normal", "Golden", "Diamond", "Galaxy", "Slime"}
